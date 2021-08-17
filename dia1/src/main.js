@@ -1,7 +1,7 @@
 import './style.css'
 const app = document.querySelector('[data-js="app"]')
-const button = document.querySelector('[data-js="button"]')
-button.addEventListener('click', () => {
+const link = document.querySelector('[data-js="link"]')
+link.addEventListener('click', () => {
   app.style.display === 'none' ? app.style.display = 'block' : app.style.display = 'none'
 })
 app.innerHTML = `
