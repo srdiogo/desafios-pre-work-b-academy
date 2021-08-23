@@ -18,7 +18,8 @@ form.addEventListener('submit', (e) => {
   table.appendChild(tr)
   Array.from(e.target.elements).forEach(e => {
     const td = newTd(e.value)
-    e.value != false ? tr.appendChild(td) : ''
+
+    e.id != false ? tr.appendChild(td) : ''
   });
 e.target.reset()
 document.getElementById("image").focus()
