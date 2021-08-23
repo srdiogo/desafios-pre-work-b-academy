@@ -6,3 +6,19 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-items: flex-start;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td, th{
+  width: 140px;
+  border: 1px solid black;
+ padding: 0;
+}
+
